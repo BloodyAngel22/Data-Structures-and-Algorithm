@@ -1,3 +1,14 @@
+5 Martin Dorothy 7312 5 4 4 3 3
+8 Robertson Alberto 1387 5 5 4 5 5
+7 Ramirez Sara 1234 3 4 4 5 4
+4 Marshall Mary 8291 5 5 4 4 5
+2 Garcia William 4597 4 4 5 5 3
+10 Turner Ken 5312 4 4 3 5 5
+6 Powers Ethel 4324 3 3 3 3 4
+3 King Robert 6364 4 3 3 4 4
+9 Summers Michael 8821 3 4 5 5 5
+1 Bailey Ricardo 4572 4 4 4 4 5
+3 Garcia John 3411 5 5 4 4 3
 5 Масленников Максим Максимович 1234 3 4 4 5 4
 4 Кузнецова Анастасия Александровна 7312 5 4 4 3 3
 1 Болдырева Алисия Кирилловна 4597 4 4 5 5 3

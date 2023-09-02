@@ -27,3 +27,6 @@ void fillStudent(Student* list);
 void printInfo(const Student* list);
 void maxLength(const Student* list);
 void shiftBySpaces(int choice, int length);
+void sortBySurname(Student* list);
+void sortBySubject(Student* list, const string subject);
+void searchBySurname(const Student* list, const string surname);
