@@ -114,19 +114,20 @@ void sortBySurname(Student* list){
         int minLength = list[j].surname.length();
         if (minLength > list[j+1].surname.length())
           minLength = list[j+1].surname.length();
-        bool swaped = 0;
         
         for (int k = 1; k < minLength; k++){
            if (list[j].surname[k] > list[j+1].surname[k]){
-//            cout << list[j].surname << " " << list[j+1].surname << endl;
-//            cout << list[j].surname[k] << " " << list[j+1].surname[k] << endl;
+            cout << list[j].surname << " " << list[j+1].surname << endl;
+            cout << (int)list[j].surname[k] << " " << (int)list[j+1].surname[k] << endl;
+            cout << list[j].surname[k] << " " << list[j+1].surname[k] << endl;
             Student tmp = list[j+1];
             list[j+1] = list[j];
             list[j] = tmp;
-            swaped = 1;
-           }
-           if (swaped)
             break;
+           }
+           if (list[j].surname[k] < list[j+1].surname[k]){
+            break;
+           }
         }
       }
     }
