@@ -12,14 +12,6 @@ struct Student
   int recNumber; //Record number
 
   int marks[5];
-
-  enum subjects{
-    programming,
-    history,
-    oc,
-    unixSys,
-    philosophy
-  };
 };
 extern const int listSize;
 
