@@ -54,7 +54,9 @@ void printInfo(const Student* list){
   cout << list[i].marks[j] << " ";
   cout << endl;
   }
-  cout << "A - Programming, B - History, C - OS, D - Unix, E - Philosophy" << endl;
+  cout << "A - " << list->subjects[0] <<", B - " << list->subjects[1]\
+   << ", C - " << list->subjects[2] << ", D - " << list->subjects[3]\
+   <<", E - " << list->subjects[4] << endl;
 }
 
 void maxLength(const Student* list){
@@ -135,35 +137,35 @@ void sortBySubject(Student* list, const string subject){
   bool isSubject = 1;
   for (int i = 0; i < listSize; i++){
   for (int j = 0; j < listSize - 1; j++){
-    if (subject == "A" || subject == "Programming"){
+    if (subject == "A" || subject == list->subjects[0]){
       if (list[j].marks[0] < list[j+1].marks[0]){
         Student tmp = list[j+1];
         list[j+1] = list[j];
         list[j] = tmp;
       }
     }
-    else if (subject == "B" || subject == "History") {
+    else if (subject == "B" || subject == list->subjects[1]) {
       if (list[j].marks[1] < list[j+1].marks[1]){
         Student tmp = list[j+1];
         list[j+1] = list[j];
         list[j] = tmp;
       }       
     }
-    else if (subject == "C" || subject == "OS") {
+    else if (subject == "C" || subject == list->subjects[2]) {
       if (list[j].marks[2] < list[j+1].marks[2]){
         Student tmp = list[j+1];
         list[j+1] = list[j];
         list[j] = tmp;
       }      
     }
-    else if (subject == "D" || subject == "Unix") {
+    else if (subject == "D" || subject == list->subjects[3]) {
       if (list[j].marks[3] < list[j+1].marks[3]){
         Student tmp = list[j+1];
         list[j+1] = list[j];
         list[j] = tmp;
       }      
     }
-    else if (subject == "E" || subject == "Philosophy") {
+    else if (subject == "E" || subject == list->subjects[4]) {
       if (list[j].marks[4] < list[j+1].marks[4]){
         Student tmp = list[j+1];
         list[j+1] = list[j];

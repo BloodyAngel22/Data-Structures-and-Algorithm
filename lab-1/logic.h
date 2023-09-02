@@ -12,6 +12,13 @@ struct Student
   int recNumber; //Record number
 
   int marks[5];
+  string subjects[5] = {
+    "Programing",
+    "History",
+    "OS",
+    "Unix",
+    "Philosophy"
+  };
 };
 extern const int listSize;
 
