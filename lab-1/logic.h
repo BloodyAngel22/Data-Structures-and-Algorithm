@@ -8,7 +8,6 @@ struct Student
   int id;
   string surname;
   string name;
-  string patronymic;
   int recNumber; //Record number
 
   int marks[5];

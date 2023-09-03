@@ -19,13 +19,9 @@ void fillStudent(Student* list){
   file >> list[i].id;
   file >> list[i].surname;
   file >> list[i].name;
-  //file >> list[i].patronymic;
   file >> list[i].recNumber;
-  file >> list[i].marks[0];
-  file >> list[i].marks[1];
-  file >> list[i].marks[2];
-  file >> list[i].marks[3];
-  file >> list[i].marks[4];
+  for (int j = 0; j < 5; j++)
+    file >> list[i].marks[j];
   }
   maxLength(list);
   file.close();
@@ -35,7 +31,6 @@ void printInfo(const Student* list){
   cout << "-------List------" << endl;
   cout << "ID  " << "Surname"; shiftBySpaces(1, 6);
   cout << "Name"; shiftBySpaces(2,3);
-  //cout << "Patronymic"; shiftBySpaces(3, 9);
   cout << "Record number  ";
   cout << "A B C D E" << endl;
   
@@ -47,7 +42,6 @@ void printInfo(const Student* list){
     cout << "  ";
   cout << list[i].surname; shiftBySpaces(1, list[i].surname.length()); cout << " ";
   cout << list[i].name; shiftBySpaces(2, list[i].name.length()); cout << " ";
-  //cout << list[i].patronymic; shiftBySpaces(3, list[i].patronymic.length() / 2); cout << " "; 
   cout << list[i].recNumber << " ";
   cout << "          ";
   for (int j = 0; j < 5; j++)
@@ -62,17 +56,12 @@ void printInfo(const Student* list){
 void maxLength(const Student* list){
   maxLengthSurname = list[0].surname.length();
   maxLengthName = list[0].name.length();
-  //maxLengthPatronymic = list[0].patronymic.length() / 2;
-  //cout << maxLengthSurname << " " << maxLengthName << " " << maxLengthPatronymic << endl;
   for (int i = 1; i < listSize; i++){
     if (list[i].surname.length() > maxLengthSurname)
       maxLengthSurname = list[i].surname.length();  
     if (list[i].name.length() > maxLengthName)
       maxLengthName = list[i].name.length();  
-    //if (list[i].patronymic.length()/2 > maxLengthPatronymic)
-     // maxLengthPatronymic = list[i].patronymic.length() / 2;  
   }
-  //cout << maxLengthSurname << " " << maxLengthName << " " << maxLengthPatronymic << endl;
 }
 
 void shiftBySpaces(int choice, int length){
@@ -86,10 +75,6 @@ void shiftBySpaces(int choice, int length){
     case 2: 
     subLength = maxLengthName - length;    
     break;
-
-    case 3:
-    subLength = maxLengthPatronymic - length;    
-    break;  
 
     case 4:
     subLength = length + 1;
@@ -117,9 +102,6 @@ void sortBySurname(Student* list){
         
         for (int k = 1; k < minLength; k++){
            if (list[j].surname[k] > list[j+1].surname[k]){
-            cout << list[j].surname << " " << list[j+1].surname << endl;
-            cout << (int)list[j].surname[k] << " " << (int)list[j+1].surname[k] << endl;
-            cout << list[j].surname[k] << " " << list[j+1].surname[k] << endl;
             Student tmp = list[j+1];
             list[j+1] = list[j];
             list[j] = tmp;
