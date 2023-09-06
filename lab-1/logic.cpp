@@ -168,6 +168,13 @@ void sortBySubject(Student* list, const string subject){
 }
 
 void searchBySurname(const Student* list, const string surname){
+  int counter = 0;
+  for (int i = 0; i < listSize; i++)
+    if (list[i].surname != surname)
+      counter++;
+  if (counter == listSize)
+    return;
+
   cout << "ID  " << "Surname"; shiftBySpaces(1, 6);
   cout << "Name"; shiftBySpaces(2,3);
   cout << "Record number  ";
