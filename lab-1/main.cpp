@@ -3,9 +3,10 @@
 int main(){
   Student list[10];
   fillStudent(list);
+	averageMarkStudents(list);
   bool isRunning = 1;
   while (isRunning){
-    cout << "Enter action number\n1 - print list, 2 - sorting by surname, 3 - sorting by subject, 4 - search by surname, 5 - exit" << endl;
+    cout << "Enter action number\n1 - print list, 2 - sorting by surname, 3 - sorting by subject, 4 - search by surname, 5 - print average mark, 6 - exit" << endl;
     int choice;
     string subject;
     string surname;
@@ -29,7 +30,11 @@ int main(){
       cin >> surname;
       searchBySurname(list, surname);
       break;
-    case 5:
+		case 5:
+			sortBySurname(list);
+			printAvarage(list);
+			break;
+    case 6:
       isRunning = 0;
       break;
     default:

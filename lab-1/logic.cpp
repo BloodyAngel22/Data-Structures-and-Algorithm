@@ -32,7 +32,8 @@ void printInfo(const Student* list){
   cout << "ID  " << "Surname"; shiftBySpaces(1, 6);
   cout << "Name"; shiftBySpaces(2,3);
   cout << "Record number  ";
-  cout << "A B C D E" << endl;
+  cout << "A B C D E ";
+	cout << "Average mark" << endl;
   
   for (int i = 0; i < listSize; i++){
   cout << list[i].id;
@@ -46,6 +47,7 @@ void printInfo(const Student* list){
   cout << "          ";
   for (int j = 0; j < 5; j++)
   cout << list[i].marks[j] << " ";
+	cout << list[i].averageMark;
   cout << endl;
   }
   cout << "A - " << list->subjects[0] <<", B - " << list->subjects[1]\
@@ -178,7 +180,8 @@ void searchBySurname(const Student* list, const string surname){
   cout << "ID  " << "Surname"; shiftBySpaces(1, 6);
   cout << "Name"; shiftBySpaces(2,3);
   cout << "Record number  ";
-  cout << "A B C D E" << endl;
+  cout << "A B C D E";
+	cout << "Average mark" << endl;
   for (int i = 0; i < listSize; i++){
     if (list[i].surname == surname){
      cout << list[i].id;
@@ -195,4 +198,38 @@ void searchBySurname(const Student* list, const string surname){
      cout << endl;
     }
   }
+}
+
+void averageMarkStudents(Student* list){
+	for (int i = 0; i < listSize; i++){
+		for (int j = 0; j < 5; j++){
+			list[i].averageMark += list[i].marks[j];
+		}
+		list[i].averageMark /= 5;
+	}
+}
+
+void printAvarage(const Student* list){
+  cout << "ID  " << "Surname"; shiftBySpaces(1, 6);
+  cout << "Name"; shiftBySpaces(2,3);
+  cout << "Record number  ";
+  cout << "A B C D E ";
+	cout << "Average mark " << endl;
+	for (int i = 0; i < listSize; i++){
+		if (list[i].averageMark <= 4 && list[i].averageMark >= 3){
+  cout << list[i].id;
+  if (list[i].id < 10)
+  cout << "   " ;
+  else
+    cout << "  ";
+  cout << list[i].surname; shiftBySpaces(1, list[i].surname.length()); cout << " ";
+  cout << list[i].name; shiftBySpaces(2, list[i].name.length()); cout << " ";
+  cout << list[i].recNumber << " ";
+  cout << "          ";
+  for (int j = 0; j < 5; j++)
+  cout << list[i].marks[j] << " ";
+	cout << list[i].averageMark;
+  cout << endl;
+		}
+	}	
 }

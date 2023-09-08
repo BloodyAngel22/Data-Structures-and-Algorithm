@@ -18,6 +18,7 @@ struct Student
     "Unix",
     "Philosophy"
   };
+	float averageMark = 0;
 };
 extern const int listSize;
 
@@ -28,3 +29,5 @@ void shiftBySpaces(int choice, int length);
 void sortBySurname(Student* list);
 void sortBySubject(Student* list, const string subject);
 void searchBySurname(const Student* list, const string surname);
+void averageMarkStudents(Student* list);
+void printAvarage(const Student* list);
