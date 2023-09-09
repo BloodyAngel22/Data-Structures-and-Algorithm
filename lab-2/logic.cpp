@@ -1,9 +1,17 @@
 #include "logic.h"
-#include <fstream>
-#include <string>
 
-string readFile(){
-	string fileName = "text.txt";
+string getFileName(){
+	string defFileName = "text.txt";
+  string fileName;
+  cout << "Enter file name (enter d for text.txt)" << endl;
+  cin >> fileName;
+  if (fileName == "d")
+    fileName = defFileName;
+  return fileName;
+}
+
+string readFile(string fileName){
+
 	ifstream file;
 	file.open(fileName);
 	if (!file.is_open()){
@@ -41,15 +49,32 @@ int searchNumbers(string text){
 	return sum;
 }
 
-void newModifiedFile(){
+void newModifiedFile(string fileName){
 	string text;
-	text = readFile();
+	text = readFile(fileName);
 	for (int i = 0; i < text.size(); i++){
 	  if (text[i] >= 48 && text[i] <= 57)
 			text[i] = '#';
 	}
-	string fileName = "chagedFile.txt";
+  string modifiedStr;
+  for(int i = 0; i < text.size(); i++){
+      if ((text[i] == ' ' && text[i+1] != ' ') || text[i] != ' ')
+        if ((text[i] == '\n' && text[i+1] != '\n') || text[i] != '\n')
+          modifiedStr += text[i];
+  }
+
+	string fileNameOut = setFileName();
 	ofstream file;
-	file.open(fileName);
-	file << text;
+	file.open(fileNameOut);
+	file << modifiedStr;
+}
+
+string setFileName(){
+	string defFileNameOut = "chagedFile.txt";
+	string fileNameOut;
+  cout << "Enter a file name to save (enter d to chagedFile.txt)" << endl;
+  cin >> fileNameOut;
+  if (fileNameOut == "d")
+    fileNameOut = defFileNameOut;
+  return fileNameOut;
 }

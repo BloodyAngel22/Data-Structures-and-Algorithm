@@ -4,6 +4,8 @@
 
 using namespace std;
 
-string readFile();
+string getFileName();
+string setFileName();
+string readFile(string fileName);
 int searchNumbers(string text);
-void newModifiedFile();
+void newModifiedFile(string fileName);
