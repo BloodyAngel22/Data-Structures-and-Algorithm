@@ -1,6 +1,13 @@
 # Algorithm Complexity
 
 ## Algorithm 1
+
+<div>
+The algorithm requires sorting. Without it it will not work correctly.
+<br>
+Algorithm complexity (excluding sorting) O(n).
+</div>
+
 ```cpp
 int uniqueElem_1(int* arr, const int size){ 
   cout << "uniqueElem_1" << endl;
@@ -18,12 +25,15 @@ int uniqueElem_1(int* arr, const int size){
 }
 ```
 
-<h4>
-The algorithm requires sorting. Without it it will not work correctly.
-Algorithm complexity (excluding sorting) O(n).
-</h4>
-
 ## Algorithm 2
+
+<div>
+Algorithm complexity O(n*n).
+At best, the complexity of the algorithm is O(n*n / 2).
+<br>
+In the worst case, the complexity of the algorithm is O(n*n).
+</div>
+
 ```cpp
 int uniqueElem_2(int* arr, const int size){ 
   cout << "uniqueElem_2" << endl;
@@ -45,13 +55,12 @@ int uniqueElem_2(int* arr, const int size){
   return counter;
 }
 ```
-<h4>
-Algorithm complexity O(n*n).
-At best, the complexity of the algorithm is O(n*n / 2).
-In the worst case, the complexity of the algorithm is O(n*n).
-</h4>
-
 ## Algorithm 3
+
+<div>
+Algorithm complexity O(n).
+</div>
+
 ```cpp
 int uniqueElem_3(int* arr, const int size){ 
   cout << "uniqueElem_3" << endl;
@@ -67,6 +76,3 @@ int uniqueElem_3(int* arr, const int size){
   return counter;
 }
 ```
-<h4>
-Algorithm complexity O(n).
-</h4>
