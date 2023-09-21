@@ -4,9 +4,9 @@
 int main(){
   srand(time(nullptr));
   const int size = 10;
-  int arr[size] = {9,7,7,4,1,2,7,3,5,5};
+  int arr[size] = {5,1,5,1,8,3,4,4,3,1};
+  /* int arr[size]; */
   /* fillArray(arr, size); */
-  /* printArray(arr,size); */
   printArray(arr,size);
   
   cout << uniqueElem_2(arr, size) << endl;

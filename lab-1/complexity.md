@@ -1,29 +1,8 @@
-#include "logic.h"
-#include <algorithm>
-#include <iostream>
+# Algorithm Complexity
 
-void fillArray(int* arr, const int size){
-  for (int i = 0; i < size; i++)
-    arr[i] = rand() % 50;
-}
-
-void printArray(int* arr, const int size){
-  for (int i = 0; i < size; i++)
-    cout << arr[i] << " ";
-  cout << endl;
-}
-
-void sortArray(int* arr, const int size){
-  for (int i = 0; i < size; i++)
-    for (int j = 0; j < size - 1 - i; j++)
-      if (arr[j] > arr[j+1]){
-        int tmp = arr[j];
-        arr[j] = arr[j+1];
-        arr[j+1] = tmp;
-      }
-}
-
-int uniqueElem_1(int* arr, const int size){ // O(n)
+## Algorithm 1
+```cpp
+int uniqueElem_1(int* arr, const int size){ 
   cout << "uniqueElem_1" << endl;
   sortArray(arr, size);
   int counter = 0;
@@ -37,8 +16,14 @@ int uniqueElem_1(int* arr, const int size){ // O(n)
   cout << "Count steps = " << steps << endl;
   return counter;
 }
+```
 
-int uniqueElem_2(int* arr, const int size){ // O(n*n)
+#### The algorithm requires sorting. Without it it will not work correctly. 
+#### Algorithm complexity (excluding sorting) O(n).
+
+## Algorithm 2
+```cpp
+int uniqueElem_2(int* arr, const int size){ 
   cout << "uniqueElem_2" << endl;
   int counter = 0;
   int steps = 0;
@@ -57,8 +42,15 @@ int uniqueElem_2(int* arr, const int size){ // O(n*n)
   cout << "Count steps = " << steps << endl;
   return counter;
 }
+```
 
-int uniqueElem_3(int* arr, const int size){ // O(n)
+#### Algorithm complexity O(n*n).
+#### At best, the complexity of the algorithm is O(n*n / 2).
+#### In the worst case, the complexity of the algorithm is O(n*n).
+
+## Algorithm 3
+```cpp
+int uniqueElem_3(int* arr, const int size){ 
   cout << "uniqueElem_3" << endl;
   int counter = 0;
   int steps = 0;
@@ -71,3 +63,6 @@ int uniqueElem_3(int* arr, const int size){ // O(n)
   cout << "Count steps = " << steps << endl;
   return counter;
 }
+```
+
+#### Algorithm complexity O(n).
