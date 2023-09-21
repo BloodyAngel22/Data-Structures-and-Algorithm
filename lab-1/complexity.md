@@ -18,8 +18,10 @@ int uniqueElem_1(int* arr, const int size){
 }
 ```
 
-#### The algorithm requires sorting. Without it it will not work correctly. 
-#### Algorithm complexity (excluding sorting) O(n).
+<h4>
+The algorithm requires sorting. Without it it will not work correctly.
+Algorithm complexity (excluding sorting) O(n).
+</h4>
 
 ## Algorithm 2
 ```cpp
@@ -43,10 +45,11 @@ int uniqueElem_2(int* arr, const int size){
   return counter;
 }
 ```
-
-#### Algorithm complexity O(n*n).
-#### At best, the complexity of the algorithm is O(n*n / 2).
-#### In the worst case, the complexity of the algorithm is O(n*n).
+<h4>
+Algorithm complexity O(n*n).
+At best, the complexity of the algorithm is O(n*n / 2).
+In the worst case, the complexity of the algorithm is O(n*n).
+</h4>
 
 ## Algorithm 3
 ```cpp
@@ -64,5 +67,6 @@ int uniqueElem_3(int* arr, const int size){
   return counter;
 }
 ```
-
-#### Algorithm complexity O(n).
+<h4>
+Algorithm complexity O(n).
+</h4>
