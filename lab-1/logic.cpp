@@ -2,6 +2,8 @@
 #include <algorithm>
 #include <iostream>
 
+//Кольцевой список. Перемещение головы. Добавление в любое место элемента. Найти элемент.
+
 void fillArray(int* arr, const int size){
   for (int i = 0; i < size; i++)
     arr[i] = rand() % 50;
