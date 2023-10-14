@@ -1,5 +1,4 @@
 #include "ring.h"
-#include <cstddef>
 
 void pushNext(Ring& r, int data) {
 	Element* e = (Element*)malloc(sizeof(Element));
@@ -109,8 +108,7 @@ int findElement(Ring& r, int data){
 }
 
 void pushToPosition(Ring& r, int data, int position){
-  /* if (r.current == NULL) return; */
-  if (position > r.length + 1){
+  if (position > r.length){
     cout << "position > lenght ring" << endl;
     return;
   }
