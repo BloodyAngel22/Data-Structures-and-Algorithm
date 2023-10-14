@@ -21,7 +21,6 @@ int main(){
       }
       else if (switcher == 2){
         list.pop();
-        break;
       }
       else if (switcher == 3){
         list.sort();
