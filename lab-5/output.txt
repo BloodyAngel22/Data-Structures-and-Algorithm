@@ -1,0 +1,14 @@
+int main{
+  cout << "{Hello world {} }";
+  int array10;
+  int size;
+  cin >> size;
+  for int i = 0; i < size; i++
+    arrayi = i;
+
+  {};
+  {
+
+  };
+}
+

@@ -1,0 +1,13 @@
+int main(){
+  cout << "{Hello world {} }";
+  int array[10];
+  int size;
+  cin >> size;
+  for (int i = 0; i < size; i++)
+    array[i] = i;
+
+  {[(())]};
+  [](){
+
+  };
+}

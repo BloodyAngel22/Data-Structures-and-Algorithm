@@ -14,7 +14,7 @@ List::~List(){
   }
 }
 
-void List::push(int key, int index){
+void List::push(int key, int index){ //Вставка элемента после n-го элемента списка
   index--;
   if (index < 0){
     cout << "index must be >= 0" << endl;
@@ -46,7 +46,7 @@ void List::push(int key, int index){
   }
 }
 
-void List::pop(){
+void List::pop(){ //удаление из списка каждого 2-го элемента
   if (length < 2){
     cout << "size must be >= 2" << endl;
     return;
@@ -81,7 +81,7 @@ void List::print(){
   cout << "\b\b\b   " << endl;
 }
 
-void List::sort(){
+void List::sort(){ //размещение элементов списка в возрастающем порядке
   if (length < 2)
     return;
   Elem* iterator = head;
@@ -100,7 +100,7 @@ void List::sort(){
   }
 }
 
-int List::sum(){
+int List::sum(){ //вычисление суммы элементов
   if (head == nullptr)
     return 0;
   int sum_list = 0;
@@ -113,7 +113,7 @@ int List::sum(){
   return sum_list;
 }
 
-void List::shiftElement(int start_index, int end_index){
+void List::shiftElement(int start_index, int end_index){ //перещение элемента на n позиций вперед
   start_index--;
   if (head == nullptr || length < 2 || end_index <= 0 || start_index < 0 || start_index == length || end_index >= length || start_index + end_index > length) {
     return;
@@ -168,7 +168,7 @@ bool List::find(int key){
   return 0;
 }
 
-List List::createList(List& list_2){
+List List::createList(List& list_2){ //создание списка содержащего элементы общие для двух других списков
   List tmp; 
   
   Elem* cur = head;
