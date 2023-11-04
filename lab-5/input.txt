@@ -1,4 +1,4 @@
-int main(){
+int main(){(
   cout << "{Hello world {} }";
   int array[10];
   int size;

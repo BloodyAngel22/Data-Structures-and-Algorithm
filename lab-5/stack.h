@@ -17,7 +17,6 @@ class Stack{
     void print();
     int getSize();
     bool task_1(string text);
-    void task_2();
   private:
     Element* head;
     int size;
