@@ -12,6 +12,7 @@ int main(){
   vector.randomFilling(-10, 10);
   cout << vector[3] << endl;
   vector[1] = 30;
+  cout << vector[4] << endl;
   vector.printVector();
   cout << vector.find(3) << " " << vector.find(-7) << endl;
   sort(vector.begin(), vector.end());
@@ -24,6 +25,10 @@ int main(){
 
   Vector v = vector.merge(tmp);
   v.printVector();
+
+  Vector* vector_2 = new Vector(3);
+  vector_2->randomFilling(-10, 15);
+  cout << (*vector_2)[4] << endl;
 
   return 0;
 }
