@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xbs3ZNDsJI4HEa82jGiF1r20hVAVuZShvsk5oazL2XeDk2+HTgtDwi+I2CIEzQqCqjzH66qvhv5VE57V3cEiCg==",
+  "success": true,
+  "projectFilePath": "/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/RTree/RTree.csproj",
+  "expectedPackageFiles": [
+    "/home/maximz/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.1/microsoft.aspnetcore.app.ref.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

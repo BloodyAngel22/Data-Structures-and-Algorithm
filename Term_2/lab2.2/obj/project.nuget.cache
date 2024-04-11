@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FYDw81zsQDep+irfVZRbEcYL08j3e/rRl7kcKwIyNVDjoP10fxfI6PHyNN8hpcNZggh7qWYMcO+0WaDZgHmxiA==",
+  "success": true,
+  "projectFilePath": "/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab2.2/lab2.2.csproj",
+  "expectedPackageFiles": [
+    "/home/maximz/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.0/microsoft.aspnetcore.app.ref.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

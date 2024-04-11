@@ -1,0 +1,15 @@
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab3.2/bin/Debug/net8.0/lab3.2
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab3.2/bin/Debug/net8.0/lab3.2.deps.json
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab3.2/bin/Debug/net8.0/lab3.2.runtimeconfig.json
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab3.2/bin/Debug/net8.0/lab3.2.dll
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab3.2/bin/Debug/net8.0/lab3.2.pdb
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab3.2/obj/Debug/net8.0/lab3.2.GeneratedMSBuildEditorConfig.editorconfig
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab3.2/obj/Debug/net8.0/lab3.2.AssemblyInfoInputs.cache
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab3.2/obj/Debug/net8.0/lab3.2.AssemblyInfo.cs
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab3.2/obj/Debug/net8.0/lab3.2.csproj.CoreCompileInputs.cache
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab3.2/obj/Debug/net8.0/lab3.2.sourcelink.json
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab3.2/obj/Debug/net8.0/lab3.2.dll
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab3.2/obj/Debug/net8.0/refint/lab3.2.dll
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab3.2/obj/Debug/net8.0/lab3.2.pdb
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab3.2/obj/Debug/net8.0/lab3.2.genruntimeconfig.cache
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab3.2/obj/Debug/net8.0/ref/lab3.2.dll

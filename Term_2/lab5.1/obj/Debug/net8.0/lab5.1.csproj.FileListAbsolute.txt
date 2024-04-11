@@ -1,0 +1,15 @@
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab5.1/bin/Debug/net8.0/lab5.1
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab5.1/bin/Debug/net8.0/lab5.1.deps.json
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab5.1/bin/Debug/net8.0/lab5.1.runtimeconfig.json
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab5.1/bin/Debug/net8.0/lab5.1.dll
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab5.1/bin/Debug/net8.0/lab5.1.pdb
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab5.1/obj/Debug/net8.0/lab5.1.GeneratedMSBuildEditorConfig.editorconfig
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab5.1/obj/Debug/net8.0/lab5.1.AssemblyInfoInputs.cache
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab5.1/obj/Debug/net8.0/lab5.1.AssemblyInfo.cs
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab5.1/obj/Debug/net8.0/lab5.1.csproj.CoreCompileInputs.cache
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab5.1/obj/Debug/net8.0/lab5.1.sourcelink.json
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab5.1/obj/Debug/net8.0/lab5.1.dll
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab5.1/obj/Debug/net8.0/refint/lab5.1.dll
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab5.1/obj/Debug/net8.0/lab5.1.pdb
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab5.1/obj/Debug/net8.0/lab5.1.genruntimeconfig.cache
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/lab5.1/obj/Debug/net8.0/ref/lab5.1.dll

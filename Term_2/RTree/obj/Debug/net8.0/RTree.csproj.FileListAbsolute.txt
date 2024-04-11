@@ -1,0 +1,15 @@
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/RTree/bin/Debug/net8.0/RTree
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/RTree/bin/Debug/net8.0/RTree.deps.json
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/RTree/bin/Debug/net8.0/RTree.runtimeconfig.json
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/RTree/bin/Debug/net8.0/RTree.dll
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/RTree/bin/Debug/net8.0/RTree.pdb
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/RTree/obj/Debug/net8.0/RTree.GeneratedMSBuildEditorConfig.editorconfig
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/RTree/obj/Debug/net8.0/RTree.AssemblyInfoInputs.cache
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/RTree/obj/Debug/net8.0/RTree.AssemblyInfo.cs
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/RTree/obj/Debug/net8.0/RTree.csproj.CoreCompileInputs.cache
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/RTree/obj/Debug/net8.0/RTree.sourcelink.json
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/RTree/obj/Debug/net8.0/RTree.dll
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/RTree/obj/Debug/net8.0/refint/RTree.dll
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/RTree/obj/Debug/net8.0/RTree.pdb
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/RTree/obj/Debug/net8.0/RTree.genruntimeconfig.cache
+/home/maximz/programming/Data-Structures-and-Algorithm/Term_2/RTree/obj/Debug/net8.0/ref/RTree.dll
